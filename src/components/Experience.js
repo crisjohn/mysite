@@ -3,7 +3,7 @@ import Divider from "./Divider";
 
 function Experience() {
   return (
-    <div className="section">
+    <div className="container-fluid" style={{ height: "600px" }}>
       <div className="mt-5 text-uppercase">
         <Divider title="Experience" dark />
       </div>
@@ -22,10 +22,11 @@ function Experience() {
               </div>
               <div class="timeline-body">
                 <p class="text-muted">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt
-                  ut voluptatum eius sapiente, totam reiciendis temporibus qui
-                  quibusdam, recusandae sit vero unde, sed, incidunt et ea quo
-                  dolore laudantium consectetur!
+                  Experience developing using Nodejs with MongoDB. Consistently
+                  deliver a scalable application with modular code. And Ensuring
+                  the team is consistently delivering working software that
+                  satisfies the business/client requirements within the defined
+                  timeline.
                 </p>
               </div>
             </div>

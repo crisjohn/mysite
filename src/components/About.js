@@ -1,22 +1,32 @@
 import React from "react";
 import Divider from "./Divider";
+import Photo from "./../assets/images/20190906_084546-01.jpeg";
 
 const spanIcon = {
   display: "inline-block",
-  width: "150px",
-  height: "150px",
+  width: "200px",
+  height: "200px",
   margin: "6px",
   marginTop: "6%",
   backgroundColor: "#555",
 };
 
-const socialStyle = {};
-
 function About() {
   return (
-    <div className="section bg-success">
+    <div className="container-fluid bg-success" style={{ height: "600px" }}>
       <div className="align-items-center text-center">
-        <span className="rounded-circle" style={spanIcon}></span>
+        {/* <span className="rounded-circle" style={spanIcon}></span> */}
+        <img
+          src={Photo}
+          alt="my_photo"
+          className="rounded-circle"
+          style={spanIcon}
+        />
+      </div>
+      <div className="text-light text-uppercase d-flex justify-content-center mt-5 mb-3">
+        <h1 className="mb-0">
+          Christian John <span className="text-warning">Elmedo</span>
+        </h1>
       </div>
       <Divider />
       <div className="d-flex justify-content-center mt-3">
